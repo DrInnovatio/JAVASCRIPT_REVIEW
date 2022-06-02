@@ -38,3 +38,20 @@ console.log(names === names_2);
 
 names_3 = [].concat(names_2, "Pizza");
 console.log(names_3);
+
+
+// ABOUT concat 
+
+// concat() 
+// 메서드는 인자로 주어진 배열이나 값들을 기존 배열에 합쳐서 새 배열을 반환합니다.
+// 기존배열을 변경하지 않습니다.
+// 추가된 새로운 배열을 반환합니다.
+
+const customers = ["John", "Karl", "Jane", "Jimmy"];
+const fruits = ["banana", "apple", "kiwi", "lemon"];
+const cities = ["LA", "NYC", "Seoul", "Tokyo"];
+const array_1 = customers.concat(fruits);
+const array_2 = customers.concat(fruits, cities);
+
+console.log(array_1);
+console.log(array_2);
